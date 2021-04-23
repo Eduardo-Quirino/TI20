@@ -1,4 +1,9 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+.img d-block w-100 {
+max-width: 1px;
+max-height: 1px;
 }
