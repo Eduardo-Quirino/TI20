@@ -21,19 +21,22 @@
 .card-img-top {
     height: 4.7rem;
     width: 4.7rem;
- 
-   
+
+
 }
 
 .row {
-     display: grid;
+    display: grid;
     grid-gap: 30px;
-   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-   justify-content: center;
-   justify-items: center;
-   padding: 30px;
-   border-radius: 6rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    padding: 30px;
+    border-radius: 2.2rem;
+    border: 1px solid #ccc;
 }
+
+/* fim card */
 
 .d-block w-100 {
     width: 500px;
