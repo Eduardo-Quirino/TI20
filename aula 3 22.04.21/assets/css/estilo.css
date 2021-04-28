@@ -17,9 +17,22 @@
     width: 150px;
 }
 
+/* card */
 .card-img-top {
     height: 4.7rem;
     width: 4.7rem;
+ 
+   
+}
+
+.row {
+     display: grid;
+    grid-gap: 30px;
+   grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+   justify-content: center;
+   justify-items: center;
+   padding: 30px;
+   border-radius: 6rem;
 }
 
 .d-block w-100 {
